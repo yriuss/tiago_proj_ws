@@ -1,0 +1,13 @@
+/home/ardiel/tiago_proj_ws/src/primeiro_proj/build/catkin_tools_prebuild
+/home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/.private/catkin_tools_prebuild/cmake.lock /home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/./cmake.lock
+/home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/.private/catkin_tools_prebuild/_setup_util.py /home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/./_setup_util.py
+/home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/.private/catkin_tools_prebuild/local_setup.bash /home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/./local_setup.bash
+/home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/.private/catkin_tools_prebuild/setup.bash /home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/./setup.bash
+/home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/.private/catkin_tools_prebuild/env.sh /home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/./env.sh
+/home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/.private/catkin_tools_prebuild/local_setup.zsh /home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/./local_setup.zsh
+/home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/.private/catkin_tools_prebuild/setup.zsh /home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/./setup.zsh
+/home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/.private/catkin_tools_prebuild/setup.sh /home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/./setup.sh
+/home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/.private/catkin_tools_prebuild/local_setup.sh /home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/./local_setup.sh
+/home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/.private/catkin_tools_prebuild/lib/pkgconfig/catkin_tools_prebuild.pc /home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+/home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake /home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+/home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake /home/ardiel/tiago_proj_ws/src/primeiro_proj/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake

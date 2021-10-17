@@ -1,0 +1,8 @@
+prefix=/home/ardiel/tiago_proj_ws/devel
+
+Name: primeiro_proj
+Description: Description of primeiro_proj
+Version: 0.0.0
+Cflags: -I/home/ardiel/tiago_proj_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: rospy message_runtime

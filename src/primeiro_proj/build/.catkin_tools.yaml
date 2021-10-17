@@ -1,0 +1,6 @@
+devel_space: /home/ardiel/tiago_proj_ws/src/primeiro_proj/devel
+install: false
+install_space: /home/ardiel/tiago_proj_ws/src/primeiro_proj/install
+profile: default
+source_space: /home/ardiel/tiago_proj_ws/src/primeiro_proj/src
+workspace: /home/ardiel/tiago_proj_ws/src/primeiro_proj
