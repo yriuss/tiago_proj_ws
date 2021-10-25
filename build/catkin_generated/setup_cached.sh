@@ -7,10 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ardiel/tiago_proj_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/ardiel/tiago_proj_ws/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/ardiel/tiago_proj_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/ardiel/tiago_proj_ws/build'
-export PYTHONPATH="/home/ardiel/tiago_proj_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES='/home/ardiel/tiago_proj_ws/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/ardiel/tiago_proj_ws/src:$ROS_PACKAGE_PATH"
+export PWD='/home/adriel/tiago_proj_ws/build'
+export ROS_PACKAGE_PATH='/home/ardiel/tiago_proj_ws/src:/home/adriel/tiago_proj_ws/src:/opt/ros/melodic/share'

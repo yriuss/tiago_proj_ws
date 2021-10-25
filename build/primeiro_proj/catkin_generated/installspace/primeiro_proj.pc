@@ -1,4 +1,4 @@
-prefix=/home/ardiel/tiago_proj_ws/install
+prefix=/home/adriel/tiago_proj_ws/install
 
 Name: primeiro_proj
 Description: Description of primeiro_proj

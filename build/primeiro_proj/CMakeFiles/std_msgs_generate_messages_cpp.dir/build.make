@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ardiel/tiago_proj_ws/src
+CMAKE_SOURCE_DIR = /home/adriel/tiago_proj_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ardiel/tiago_proj_ws/build
+CMAKE_BINARY_DIR = /home/adriel/tiago_proj_ws/build
 
 # Utility rule file for std_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ primeiro_proj/CMakeFiles/std_msgs_generate_messages_cpp.dir/build: std_msgs_gene
 .PHONY : primeiro_proj/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 
 primeiro_proj/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
-	cd /home/ardiel/tiago_proj_ws/build/primeiro_proj && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/adriel/tiago_proj_ws/build/primeiro_proj && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : primeiro_proj/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 
 primeiro_proj/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend:
-	cd /home/ardiel/tiago_proj_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ardiel/tiago_proj_ws/src /home/ardiel/tiago_proj_ws/src/primeiro_proj /home/ardiel/tiago_proj_ws/build /home/ardiel/tiago_proj_ws/build/primeiro_proj /home/ardiel/tiago_proj_ws/build/primeiro_proj/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adriel/tiago_proj_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adriel/tiago_proj_ws/src /home/adriel/tiago_proj_ws/src/primeiro_proj /home/adriel/tiago_proj_ws/build /home/adriel/tiago_proj_ws/build/primeiro_proj /home/adriel/tiago_proj_ws/build/primeiro_proj/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : primeiro_proj/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
 

@@ -68,6 +68,18 @@ class Tiago:
         self.head_cmd.publish(jt)
         rospy.sleep(2)
 
+    def look_forward(self):
+        jt = JointTrajectory()
+        jt.joint_names = ['head_1_joint', 'head_2_joint']
+        jtp = JointTrajectoryPoint()
+        jtp.positions = [0 , 0]
+        jt.points.append(jtp)
+        jtp.time_from_start = rospy.Duration(2.0)
+        i = 0
+        rospy.sleep(2)
+        self.head_cmd.publish(jt)
+        rospy.sleep(2)
+
     def move_head_to_right(self):
         jt = JointTrajectory()
         jt.joint_names = ['head_1_joint', 'head_2_joint']
@@ -159,8 +171,7 @@ if __name__ == '__main__':
     rospy.sleep(2)
 
     state = 0
-    while(not rospy.is_shutdown()):
-        print(tiago.receive_situation())
+
 
     while(not rospy.is_shutdown()):
         if state == 0:
@@ -182,12 +193,10 @@ if __name__ == '__main__':
             tiago.move_head_to_right()
             flag_red = tiago.receive_situation()
             tiago.move_head_to_left()
-            tiago.move_head_to_left()
             flag_green = tiago.receive_situation()
             if(flag_red == 3 and flag_green == 2):
-                    tiago.move_head_to_right()
-                    tiago.turn_left()
-                    state = 2
+                    tiago.look_forward()
+                    state = 3
             else:
                 state = 5
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/ardiel/tiago_proj_ws/src/primeiro_proj
+# Install script for directory: /home/adriel/tiago_proj_ws/src/primeiro_proj
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ardiel/tiago_proj_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/adriel/tiago_proj_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,61 +38,61 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/primeiro_proj/srv" TYPE FILE FILES "/home/ardiel/tiago_proj_ws/src/primeiro_proj/srv/situation.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/primeiro_proj/srv" TYPE FILE FILES "/home/adriel/tiago_proj_ws/src/primeiro_proj/srv/situation.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/primeiro_proj/cmake" TYPE FILE FILES "/home/ardiel/tiago_proj_ws/build/primeiro_proj/catkin_generated/installspace/primeiro_proj-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/primeiro_proj/cmake" TYPE FILE FILES "/home/adriel/tiago_proj_ws/build/primeiro_proj/catkin_generated/installspace/primeiro_proj-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ardiel/tiago_proj_ws/devel/include/primeiro_proj")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/adriel/tiago_proj_ws/devel/include/primeiro_proj")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ardiel/tiago_proj_ws/devel/share/roseus/ros/primeiro_proj")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/adriel/tiago_proj_ws/devel/share/roseus/ros/primeiro_proj")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ardiel/tiago_proj_ws/devel/share/common-lisp/ros/primeiro_proj")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/adriel/tiago_proj_ws/devel/share/common-lisp/ros/primeiro_proj")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ardiel/tiago_proj_ws/devel/share/gennodejs/ros/primeiro_proj")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/adriel/tiago_proj_ws/devel/share/gennodejs/ros/primeiro_proj")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/ardiel/tiago_proj_ws/devel/lib/python2.7/dist-packages/primeiro_proj")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/adriel/tiago_proj_ws/devel/lib/python2.7/dist-packages/primeiro_proj")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/ardiel/tiago_proj_ws/devel/lib/python2.7/dist-packages/primeiro_proj")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/adriel/tiago_proj_ws/devel/lib/python2.7/dist-packages/primeiro_proj")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ardiel/tiago_proj_ws/build/primeiro_proj/catkin_generated/installspace/primeiro_proj.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/adriel/tiago_proj_ws/build/primeiro_proj/catkin_generated/installspace/primeiro_proj.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/primeiro_proj/cmake" TYPE FILE FILES "/home/ardiel/tiago_proj_ws/build/primeiro_proj/catkin_generated/installspace/primeiro_proj-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/primeiro_proj/cmake" TYPE FILE FILES "/home/adriel/tiago_proj_ws/build/primeiro_proj/catkin_generated/installspace/primeiro_proj-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/primeiro_proj/cmake" TYPE FILE FILES
-    "/home/ardiel/tiago_proj_ws/build/primeiro_proj/catkin_generated/installspace/primeiro_projConfig.cmake"
-    "/home/ardiel/tiago_proj_ws/build/primeiro_proj/catkin_generated/installspace/primeiro_projConfig-version.cmake"
+    "/home/adriel/tiago_proj_ws/build/primeiro_proj/catkin_generated/installspace/primeiro_projConfig.cmake"
+    "/home/adriel/tiago_proj_ws/build/primeiro_proj/catkin_generated/installspace/primeiro_projConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/primeiro_proj" TYPE FILE FILES "/home/ardiel/tiago_proj_ws/src/primeiro_proj/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/primeiro_proj" TYPE FILE FILES "/home/adriel/tiago_proj_ws/src/primeiro_proj/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/primeiro_proj" TYPE PROGRAM FILES "/home/ardiel/tiago_proj_ws/build/primeiro_proj/catkin_generated/installspace/camera.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/primeiro_proj" TYPE PROGRAM FILES "/home/adriel/tiago_proj_ws/build/primeiro_proj/catkin_generated/installspace/camera.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/primeiro_proj" TYPE PROGRAM FILES "/home/ardiel/tiago_proj_ws/build/primeiro_proj/catkin_generated/installspace/main.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/primeiro_proj" TYPE PROGRAM FILES "/home/adriel/tiago_proj_ws/build/primeiro_proj/catkin_generated/installspace/main.py")
 endif()
 

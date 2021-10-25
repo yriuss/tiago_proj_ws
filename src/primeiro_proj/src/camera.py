@@ -30,21 +30,21 @@ class myCamera():
         # cv_image[linha][coluna][bgr] bgr-> 0:blue, 1:green, 2:red
         flag = 0
         test = 0
-        for i in range(600):
+        for i in range(500):
             for j in range(480):
-                #print(self.cv_image[j][i][:])
-                if(self.cv_image[j][i][0] > 150):
+                #print(self.cv_image[j][i+100][:])
+                if(self.cv_image[i+100][j][0] > 150):
                     flag = 1
                     #print(flag)
                     #print(self.cv_image[j][i][:])
                     return 1
-                elif(self.cv_image[j][i][1] > 60 and self.cv_image[j][i][0] < 10 and self.cv_image[j][i][2] < 10):
+                elif(self.cv_image[i+100][j][1] > 60 and self.cv_image[j][i][0] < 10 and self.cv_image[j][i][2] < 10):
                     flag = 2
                     #print(flag)
                     #print(self.cv_image[j][i][:])
                     return 2
-                elif(self.cv_image[j][i][2] > 100 and self.cv_image[j][i][0] < 90 and self.cv_image[j][i][1] < 90):
-                    test =self.cv_image[j][i][2]
+                elif(self.cv_image[i+100][j][2] > 100 and self.cv_image[j][i][0] < 90 and self.cv_image[j][i][1] < 90):
+                    test =self.cv_image[i+100][j][2]
                     flag = 3
                     #print(flag)
                     #print(self.cv_image[j][i][:])
@@ -56,7 +56,7 @@ class myCamera():
             self.cv_image = self.bridge.imgmsg_to_cv2(msg, "bgr8")
         except CvBridgeError as e:
             print(e)
-
+        
         # Display the image
         cv2.imshow("raw", self.cv_image)
         cv2.waitKey(3)

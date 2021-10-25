@@ -67,14 +67,14 @@ set(primeiro_proj_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(primeiro_proj_SOURCE_PREFIX /home/ardiel/tiago_proj_ws/src/primeiro_proj)
-  set(primeiro_proj_DEVEL_PREFIX /home/ardiel/tiago_proj_ws/devel)
+  set(primeiro_proj_SOURCE_PREFIX /home/adriel/tiago_proj_ws/src/primeiro_proj)
+  set(primeiro_proj_DEVEL_PREFIX /home/adriel/tiago_proj_ws/devel)
   set(primeiro_proj_INSTALL_PREFIX "")
   set(primeiro_proj_PREFIX ${primeiro_proj_DEVEL_PREFIX})
 else()
   set(primeiro_proj_SOURCE_PREFIX "")
   set(primeiro_proj_DEVEL_PREFIX "")
-  set(primeiro_proj_INSTALL_PREFIX /home/ardiel/tiago_proj_ws/install)
+  set(primeiro_proj_INSTALL_PREFIX /home/adriel/tiago_proj_ws/install)
   set(primeiro_proj_PREFIX ${primeiro_proj_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ardiel/tiago_proj_ws/install/lib;/opt/ros/melodic/lib)
+    foreach(path /home/adriel/tiago_proj_ws/install/lib;/home/adriel/tiago_proj_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

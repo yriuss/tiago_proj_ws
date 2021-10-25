@@ -1,2 +1,2 @@
 primeiro_proj
--DCATKIN_DEVEL_PREFIX=/home/ardiel/tiago_proj_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ardiel/tiago_proj_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/adriel/tiago_proj_ws/devel -DCMAKE_INSTALL_PREFIX=/home/adriel/tiago_proj_ws/install -G Unix Makefiles
